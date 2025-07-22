@@ -92,10 +92,7 @@ class VideoStore {
                     " | Rating: " + store[i].getRating() +
                     " | Available: " + (!store[i].getCheckout()));
         }
-    }
-}
-
-public class MiniProject2 {
+    } 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         VideoStore store = new VideoStore();
